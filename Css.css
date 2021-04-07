@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600);
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+cite {
+  padding-top:12px;
+  float: right;
+}
+.container {
+  font-family:Montserrat;
+  width: 100%;
+  background: #eee;
+}
+.section p {
+  font-size: 2.5vmin;
+  font-weight:600;
+  /* line-height: 1.6; */
+  width: 45vw;
+  background-color: rgba(255,255,255,0.0);
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+.section .p-left {
+  position: absolute;
+  left: 5%;
+  top: 45vmin;  
+}
+.section .p-right {
+  position: absolute;
+  right:5%;
+  top: 45vmin;
+}
+
+
+
+.section .p-right-subtitle {
+  position: absolute;
+  font-size: 4vmin;
+  right:5%;
+  top: 25vmin;
+}
+
+.section .p-left-subtitle {
+  position: absolute;
+  font-size: 4vmin;
+  right:5%;
+  top: 25vmin;
+}
+
+
+
+.section {
+  min-height: 100vh;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.s0 {
+  background: linear-gradient(rgba(0, 0, 0, 0.85),        rgba(0, 0, 0, 0.85)),url("https://images.unsplash.com/photo-1611444713509-13551307f623?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s1 {
+  background: url("https://images.unsplash.com/photo-1611444713509-13551307f623?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.75),        rgba(0, 0, 0, 0.75)),url("https://images.unsplash.com/photo-1611444713509-13551307f623?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s3 {
+  background: url("https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.75),        rgba(0, 0, 0, 0.75)), url("https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.55),        rgba(0, 0, 0, 0.55)),  url("https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.75),        rgba(0, 0, 0, 0.75)), url("https://www.youtube.com/watch?v=E52k5YJPMFU");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.s7 {
+  background: url("");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.75),        rgba(0, 0, 0, 0.75)), url("");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (min-width: 1400px) {
+  .section p {
+    width: 35vw;
+  }
+}
+
+@media all and (max-width: 786px) {
+  .section p {
+    width: 90vw;
+  }
+  .section .p-left,.section .p-right {
+    left:0;
+    right:0;
+    margin: auto;    
+  }
+}
+@media all and (max-width: 580px) {
+  .section p {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  .section .p-left,.section .p-right {
+    bottom: 3%;
+  }
+}
+
+
+
+/*  */
